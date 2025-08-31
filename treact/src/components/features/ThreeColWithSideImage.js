@@ -58,7 +58,7 @@ const DecoratorBlob = styled(SvgDecoratorBlob3)`
   ${tw`pointer-events-none absolute right-0 bottom-0 w-64 opacity-25 transform translate-x-32 translate-y-48 `}
 `;
 
-export default ({ cards = null, heading = "Amazing Features", subheading = "Features", description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }) => {
+export default ({ cards = null, heading = "Amazing Features", subheading = "Features", description = "Affordable, reliable IT support for your devices, networks, and data. Same-day help available across Hobart and surrounds.¡±" }) => {
   /*
    * This componets has an array of object denoting the cards defined below. Each object in the cards array can have the key (Change it according to your need, you can also add more objects to have more cards in this feature component) or you can directly pass this using the cards prop:
    *  1) imageSrc - the image shown at the top of the card
@@ -71,13 +71,13 @@ export default ({ cards = null, heading = "Amazing Features", subheading = "Feat
     {
       imageSrc: ShieldIconImage,
       title: "Secure",
-      description: "We strictly only deal with vendors that provide top notch security."
+          description: "We make sure your systems are safe and operate smoothly - from protecting against threats to setting up secure connections."
     },
-    { imageSrc: SupportIconImage, title: "24/7 Support" },
-    { imageSrc: CustomizeIconImage, title: "Customizable" },
-    { imageSrc: ReliableIconImage, title: "Reliable" },
-    { imageSrc: FastIconImage, title: "Fast" },
-    { imageSrc: SimpleIconImage, title: "Easy" }
+      { imageSrc: SupportIconImage, title: "24/7 Support", description:"Reach out anytime - we offer flexible support hours and same-day help when you need it most." },
+      { imageSrc: CustomizeIconImage, title: "Customizable", description:"Services tailored to your needs - from PC builds and upgrades to mobile repairs and smart home setup." },
+      { imageSrc: ReliableIconImage, title: "Reliable", description:"Consistent, professional IT support that gets you back online quickly and keeps your systems running smoothly." },
+      { imageSrc: FastIconImage, title: "Remote Service", description:"Many issues can be solved remotely, saving you time while still ensuring fast, effective results." },
+      { imageSrc: SimpleIconImage, title: "Easy", description:"Clear, simple explanations without jargon - we make technology easy to understand and use." }
   ];
 
   if (!cards) cards = defaultCards;

@@ -7,7 +7,7 @@ import { css } from "styled-components/macro";
 import Header from "../headers/light.js";
 
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
-import DesignIllustration from "../../images/design-illustration-2.svg";
+import DesignIllustration from "../../images/LandingIMG.png";
 import CustomersLogoStripImage from "../../images/customers-logo-strip.png";
 
 const Container = tw.div`relative`;
@@ -53,20 +53,19 @@ export default ({ roundedHeaderButton }) => {
         <TwoColumn>
           <LeftColumn>
             <Heading>
-              Beautiful React Templates <span tw="text-primary-500">for you.</span>
+                Reliable IT Support in <span tw="text-primary-500">Hobart.</span>
             </Heading>
             <Paragraph>
-              Our templates are easy to setup, understand and customize. Fully modular components with a variety of
-              pages and components.
+                Local Tech is a Hobart-based sole trader offering affordable IT help for laptops, phones, desktops, networks, and mobile devices. Same-day support, clear pricing, and no jargon.
             </Paragraph>
             <Actions>
               <input type="text" placeholder="Your E-mail Address" />
               <button>Get Started</button>
             </Actions>
-            <CustomersLogoStrip>
-              <p>Our TRUSTED Customers</p>
-              <img src={CustomersLogoStripImage} alt="Our Customers" />
-            </CustomersLogoStrip>
+            {/*<CustomersLogoStrip>*/}
+            {/*  <p>Our TRUSTED Customers</p>*/}
+            {/*  <img src={CustomersLogoStripImage} alt="Our Customers" />*/}
+            {/*</CustomersLogoStrip>*/}
           </LeftColumn>
           <RightColumn>
             <IllustrationContainer>
