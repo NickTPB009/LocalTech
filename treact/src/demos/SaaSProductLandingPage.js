@@ -33,75 +33,132 @@ export default () => {
           </>
         }
       />
-      <MainFeature
-        subheading={<Subheading>Quality Work</Subheading>}
-        imageSrc={heroScreenshotImageSrc}
+          <MainFeature
+              subheading={<Subheading>Hardware & Device Services</Subheading>}
+              description="We handle everything from laptop and desktop repairs to SSD/HDD upgrades, printer setup, peripheral installation, and even custom-built PCs for gamers, creatives, and professionals."
+              heading={
+                  <>
+                      Repairs, upgrades, and <span tw="text-primary-500">Custom setups.</span>
+                  </>
+              }
+          imageSrc={heroScreenshotImageSrc}
         imageBorder={true}
         imageDecoratorBlob={true}
       />
+        <MainFeature
+              subheading={<Subheading>Software Support</Subheading>}
+              description= "We install and upgrade operating systems (Windows, macOS, Android), remove viruses and malware, troubleshoot everyday issues like MS Office or browsers, update drivers, and fine-tune systems for maximum speed and stability."
+          heading={
+              <>
+                  Smooth, secure, and <span tw="text-primary-500">ptimized software solutions.</span>
+              </>
+          }
+              textOnLeft={false}
+          imageSrc={heroScreenshotImageSrc}
+        imageBorder={true}
+        imageDecoratorBlob={true}
+      />
+        <MainFeature
+              subheading={<Subheading>Networking & Internet Help</Subheading>}
+              description= "From Wi-Fi troubleshooting and LAN setup to smart home device installation and mobile hotspot configuration, we make sure your internet is fast, secure, and always working when you need it."
+              heading={
+                  <>
+                      Reliable connections for <span tw="text-primary-500">Home</span> and  <span tw="text-primary-500">Small offices.</span>
+                  </>
+              }
+              imageSrc={heroScreenshotImageSrc}
+        imageBorder={true}
+        imageDecoratorBlob={true}
+      />
+        <MainFeature
+              subheading={<Subheading>Security Services</Subheading>}
+              description= "We configure firewalls, set up parental controls, guide you through two-factor authentication, and provide straightforward cybersecurity advice to keep your family or business safe from threats."
+              heading={
+                  <>
+                      Peace of mind with strong <span tw="text-primary-500">Security protections.</span> 
+                  </>
+              }
+              textOnLeft={false}
+              imageSrc={heroScreenshotImageSrc}
+        imageBorder={true}
+        imageDecoratorBlob={true}
+      />
+        <MainFeature
+              subheading={<Subheading>Mobile Services</Subheading>}
+              description= "We replace screens and batteries, transfer data from old to new devices, install and configure apps, perform OS upgrades, and clean up slow devices so they run like new again."
+              heading={
+                  <>
+                      Get the most out of your <span tw="text-primary-500">Phone or tablet.</span>
+                  </>
+              }
+              imageSrc={heroScreenshotImageSrc}
+        imageBorder={true}
+        imageDecoratorBlob={true}
+      />
+       
    
-      <Pricing
-        subheading={<Subheading>Pricing</Subheading>}
-        heading={
-          <>
-            Reasonable & Flexible <HighlightedText>Plans.</HighlightedText>
-          </>
-        }
-        plans={[
-          {
-            name: "Personal",
-            price: "$17.99",
-            duration: "Monthly",
-            mainFeature: "For Individuals",
-            features: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"]
-          },
-          {
-            name: "Business",
-            price: "$37.99",
-            duration: "Monthly",
-            mainFeature: "For Small Businesses",
-            features: ["60 Templates", "15 Landing Pages", "22 Internal Pages", "Priority Assistance"],
-            featured: true
-          },
-          {
-            name: "Enterprise",
-            price: "$57.99",
-            duration: "Monthly",
-            mainFeature: "For Large Companies",
-            features: ["90 Templates", "27 Landing Pages", "37 Internal Pages", "Personal Assistance"]
-          }
-        ]}
-      />
-      <Testimonial
-        subheading={<Subheading>Testimonials</Subheading>}
-        heading={
-          <>
-            Our Clients <HighlightedText>Love Us.</HighlightedText>
-          </>
-        }
-        testimonials={[
-          {
-            stars: 5,
-            profileImageSrc:
-              "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
-            heading: "Amazing User Experience",
-            quote:
-              "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-            customerName: "Charlotte Hale",
-            customerTitle: "Director, Delos Inc."
-          },
-          {
-            stars: 5,
-            profileImageSrc:
-              "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
-            heading: "Love the Developer Experience and Design Principles !",
-            quote:
-              "Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            customerName: "Adam Cuppy",
-            customerTitle: "Founder, EventsNYC"
-          }
-        ]}
-      />
+      {/*<Pricing*/}
+      {/*  subheading={<Subheading>Pricing</Subheading>}*/}
+      {/*  heading={*/}
+      {/*    <>*/}
+      {/*      Reasonable & Flexible <HighlightedText>Plans.</HighlightedText>*/}
+      {/*    </>*/}
+      {/*  }*/}
+      {/*  plans={[*/}
+      {/*    {*/}
+      {/*      name: "Personal",*/}
+      {/*      price: "$17.99",*/}
+      {/*      duration: "Monthly",*/}
+      {/*      mainFeature: "For Individuals",*/}
+      {/*      features: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"]*/}
+      {/*    },*/}
+      {/*    {*/}
+      {/*      name: "Business",*/}
+      {/*      price: "$37.99",*/}
+      {/*      duration: "Monthly",*/}
+      {/*      mainFeature: "For Small Businesses",*/}
+      {/*      features: ["60 Templates", "15 Landing Pages", "22 Internal Pages", "Priority Assistance"],*/}
+      {/*      featured: true*/}
+      {/*    },*/}
+      {/*    {*/}
+      {/*      name: "Enterprise",*/}
+      {/*      price: "$57.99",*/}
+      {/*      duration: "Monthly",*/}
+      {/*      mainFeature: "For Large Companies",*/}
+      {/*      features: ["90 Templates", "27 Landing Pages", "37 Internal Pages", "Personal Assistance"]*/}
+      {/*    }*/}
+      {/*  ]}*/}
+      {/*/>*/}
+      {/*<Testimonial*/}
+      {/*  subheading={<Subheading>Testimonials</Subheading>}*/}
+      {/*  heading={*/}
+      {/*    <>*/}
+      {/*      Our Clients <HighlightedText>Love Us.</HighlightedText>*/}
+      {/*    </>*/}
+      {/*  }*/}
+      {/*  testimonials={[*/}
+      {/*    {*/}
+      {/*      stars: 5,*/}
+      {/*      profileImageSrc:*/}
+      {/*        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",*/}
+      {/*      heading: "Amazing User Experience",*/}
+      {/*      quote:*/}
+      {/*        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",*/}
+      {/*      customerName: "Charlotte Hale",*/}
+      {/*      customerTitle: "Director, Delos Inc."*/}
+      {/*    },*/}
+      {/*    {*/}
+      {/*      stars: 5,*/}
+      {/*      profileImageSrc:*/}
+      {/*        "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",*/}
+      {/*      heading: "Love the Developer Experience and Design Principles !",*/}
+      {/*      quote:*/}
+      {/*        "Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",*/}
+      {/*      customerName: "Adam Cuppy",*/}
+      {/*      customerTitle: "Founder, EventsNYC"*/}
+      {/*    }*/}
+      {/*  ]}*/}
+      {/*/>*/}
       <FAQ
         subheading={<Subheading>FAQS</Subheading>}
         heading={
