@@ -7,7 +7,7 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import PropTypes from "prop-types";
 
-export function MultipleSelect({ label = "Name", options = [], onChange }) {
+export default function MultipleSelect({ label = "Name", options = [], onChange }) {
     const theme = useTheme();
     const [value, setValue] = React.useState([]); // ¡û no TS generic
 

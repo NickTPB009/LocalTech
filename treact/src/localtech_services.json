@@ -1,0 +1,182 @@
+{
+  "Laptop Services": {
+    "category": "Laptop Services",
+    "services": [
+      {
+        "name": "Hardware repair and replacement",
+        "description": "Diagnose and fix laptop hardware problems such as faulty keyboard, battery, charging port, or display issues.",
+        "price": "$80–$150"
+      },
+      {
+        "name": "SSD/HDD upgrade and data cloning",
+        "description": "Upgrade to SSD or larger storage for faster performance and clone your data safely.",
+        "price": "$90–$130"
+      },
+      {
+        "name": "System reinstall and performance optimization",
+        "description": "Reinstall Windows or macOS, update drivers, and optimize system settings for smoother operation.",
+        "price": "$70–$100"
+      },
+      {
+        "name": "Deep Cleaning",
+        "description": "Remove dust buildup, replace thermal paste, and improve cooling to prevent overheating.",
+        "price": "$60–$80"
+      }
+    ]
+  },
+
+  "Software Troubleshooting": {
+    "category": "Software Troubleshooting",
+    "services": [
+      {
+        "name": "Operating system installation and upgrades",
+        "description": "Install or upgrade Windows, macOS, or Android systems with proper drivers and updates.",
+        "price": "$80"
+      },
+      {
+        "name": "Virus and malware removal",
+        "description": "Scan and remove malicious software, install antivirus protection, and secure system settings.",
+        "price": "$70–$100"
+      },
+      {
+        "name": "Application troubleshooting",
+        "description": "Fix errors, crashes, or configuration problems in common applications like Microsoft Office or browsers.",
+        "price": "$60–$90"
+      },
+      {
+        "name": "Driver updates and compatibility fixes",
+        "description": "Resolve hardware recognition issues and ensure all components work properly with the latest drivers.",
+        "price": "$50–$70"
+      },
+      {
+        "name": "Deep Cleaning",
+        "description": "Clean up temporary files, manage startup programs, and tune the system for better performance.",
+        "price": "$50–$70"
+      }
+    ]
+  },
+
+  "Wi-Fi / Network Help": {
+    "category": "Wi-Fi / Network Help",
+    "services": [
+      {
+        "name": "Wi-Fi setup and troubleshooting",
+        "description": "Set up and fix routers, modems, or mesh systems to improve signal coverage and stability.",
+        "price": "$70–$100"
+      },
+      {
+        "name": "LAN setup for home or office",
+        "description": "Design and configure wired network connections for shared printers, NAS, and stable performance.",
+        "price": "$90–$120"
+      },
+      {
+        "name": "Internet speed optimization",
+        "description": "Identify bottlenecks and optimize router or ISP settings for better speed and reliability.",
+        "price": "$60–$80"
+      },
+      {
+        "name": "Smart device connection",
+        "description": "Connect and configure IoT or smart home devices such as Google Home, Alexa, or cameras.",
+        "price": "$60–$100"
+      },
+      {
+        "name": "Deep Cleaning",
+        "description": "Reset network settings, remove old profiles, and secure your Wi-Fi with updated encryption.",
+        "price": "$50–$70"
+      }
+    ]
+  },
+
+  "Security Services": {
+    "category": "Security Services",
+    "services": [
+      {
+        "name": "Firewall configuration",
+        "description": "Set up Windows, macOS, or router-level firewalls to protect against unauthorized access.",
+        "price": "$60–$90"
+      },
+      {
+        "name": "Two-factor authentication setup",
+        "description": "Enable 2FA for important accounts and educate users on secure login practices.",
+        "price": "$40–$60"
+      },
+      {
+        "name": "Parental control setup",
+        "description": "Implement content filters, time limits, and safety settings for children’s devices.",
+        "price": "$50"
+      },
+      {
+        "name": "Basic cybersecurity training",
+        "description": "Provide clear advice on safe browsing, phishing awareness, and password management.",
+        "price": "$40–$70"
+      },
+      {
+        "name": "Deep Cleaning",
+        "description": "Audit your system for vulnerabilities, remove outdated permissions, and tighten security configurations.",
+        "price": "$60–$80"
+      }
+    ]
+  },
+
+  "Mobile Services": {
+    "category": "Mobile Services",
+    "services": [
+      {
+        "name": "Screen replacement",
+        "description": "Replace cracked or broken phone screens with OEM or Grade-A components.",
+        "price": "$120–$250 depending on model"
+      },
+      {
+        "name": "Battery replacement",
+        "description": "Replace worn-out batteries and test power performance for iOS and Android devices.",
+        "price": "$80–$150 depending on model"
+      },
+      {
+        "name": "Data transfer and backup",
+        "description": "Transfer photos, contacts, and files between phones or create secure backups.",
+        "price": "$60–$90"
+      },
+      {
+        "name": "System optimization and OS upgrade",
+        "description": "Update Android/iOS, fix slow performance, and reinstall or configure mobile OS.",
+        "price": "$60–$100"
+      },
+      {
+        "name": "Deep Cleaning",
+        "description": "Clean phone ports, speaker grills, and internal dust to improve overall performance.",
+        "price": "$30–$50"
+      }
+    ]
+  },
+
+  "PC Services": {
+    "category": "PC Services",
+    "services": [
+      {
+        "name": "Custom PC build and assembly",
+        "description": "Assemble high-performance desktop PCs for gaming, design, or business use with full testing and cable management.",
+        "price": "Labor $120 + hardware parts"
+      },
+      {
+        "name": "Component upgrade",
+        "description": "Install and configure new parts such as CPU, GPU, or RAM for better performance.",
+        "price": "$100–$180"
+      },
+      {
+        "name": "System setup and driver installation",
+        "description": "Install operating systems, drivers, and essential apps for a fresh build or upgrade.",
+        "price": "$70–$100"
+      },
+      {
+        "name": "Performance tuning and thermal optimization",
+        "description": "Benchmark, stress-test, and adjust cooling profiles to ensure maximum stability.",
+        "price": "$80–$120"
+      },
+      {
+        "name": "Deep Cleaning",
+        "description": "Remove dust, replace thermal paste, and clean fans to maintain temperature efficiency.",
+        "price": "$70–$100"
+      }
+    ]
+  }
+}
